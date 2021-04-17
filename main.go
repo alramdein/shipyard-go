@@ -1,3 +1,8 @@
+/* Program: Shipyard-go */
+/* Author: Alif Ramdani */
+/* Social Media: alramdein */
+/* Date: 17/04/2021 */
+
 package main
 
 import (
