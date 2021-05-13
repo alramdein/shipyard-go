@@ -5,7 +5,9 @@ Ship package can create ship instances. Currently it has 3 instance: Motorboat, 
 Go installed on your machine. More [install Go.](https://golang.org/doc/install)
 
 ## Installation
-`go get -v github.com/alramdein/shipyard-go/ship`
+```go
+go get -v github.com/alramdein/shipyard-go/ship
+```
 
 ## Usage 
 Import the `Ship` package
@@ -27,8 +29,8 @@ func main() {
     fmt.Println("Motorboat-1 name: " + motorboat1.GetName())
     fmt.Println()
 
-	motorboat1.SetName("MB-01.11")
-	fmt.Println("Motorboat-1 name after SetName: " + motorboat1.GetName())
+    motorboat1.SetName("MB-01.11")
+    fmt.Println("Motorboat-1 name after SetName: " + motorboat1.GetName())
 }
 
 ```
@@ -66,4 +68,4 @@ And then run the executable file with `shipyard-go.exe`
 > Note: Sometimes it took quite long at first `run` because it needs to download the package for the repository
 
 ## Author
-This project original created by Alif Ramdani (alramdein). Please put me on credit when you use it publicly or commercially.
+This project original created from scratch by Alif Ramdani (alramdein). Please put me on credit when you use it publicly or commercially.
